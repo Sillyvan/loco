@@ -10,7 +10,7 @@ message: "Base template was added successfully."
   <title>{% raw %}{% block title %}{% endblock title %}{% endraw %}</title>
 
   <script src="https://unpkg.com/htmx.org@2.0.0/dist/htmx.min.js"></script>
-  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+  <link href="/static/output.css" rel="stylesheet">
   {% raw %}{% block head %}{% endraw %}
 
   {% raw %}{% endblock head %}{% endraw %}

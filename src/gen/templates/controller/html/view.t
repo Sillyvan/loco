@@ -8,7 +8,7 @@ message: "{{file_name}}/{{action}} view was added successfully."
 <html lang="en">
 
 <head>
-    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+<link href="/static/output.css" rel="stylesheet">
 </head>
 
 <body class="prose p-10">
